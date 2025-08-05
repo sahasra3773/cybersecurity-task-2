@@ -1,0 +1,16 @@
+From: support@paypa1.com
+Subject: URGENT: Account Access Suspended
+
+Dear Customer,
+
+We've noticed unusual activity on your PayPal account.  
+To restore full access, please verify your account at the link below:
+
+https://paypal-secure.com/login
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+Thank you,  
+PayPal Security Team
+
+Attachment: verify_account.exe
