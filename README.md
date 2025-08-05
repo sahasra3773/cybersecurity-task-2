@@ -6,6 +6,8 @@ Analyze a phishing email and identify signs of spoofing, malicious links, attach
 Files:
 - sample_phishing_email.txt — Raw example of the phishing email
 - phishing_report.txt — Report of phishing indicators identified
+- Analysis report
+- Attached pictures
 - README.txt — Task summary and explanation
 
 Outcome:
