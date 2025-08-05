@@ -1,0 +1,155 @@
+PHISHING EMAIL ANALYSIS ASSIGNMENT - COMPLETE PROCEDURE
+=======================================================
+
+WHAT YOU NEED TO DO (Simple Overview):
+1. Use a fake phishing email sample
+2. Analyze it to find suspicious elements
+3. Write a report about what you found
+4. Put everything on GitHub
+5. Submit the GitHub link
+
+STEP-BY-STEP DETAILED PROCEDURE
+===============================
+
+PHASE 1: SETUP AND PREPARATION (15 minutes)
+-------------------------------------------
+
+Step 1.1: Create GitHub Account (if you don't have one)
+1. Go to https://github.com
+2. Click "Sign up"
+3. Create your account with username, email, password
+4. Verify your email
+
+Step 1.2: Create New Repository
+1. Login to GitHub
+2. Click the green "New" button (or + icon → New repository)
+3. Repository name: phishing-email-analysis
+4. Description: Cybersecurity internship task - Phishing email analysis
+5. Make it Public
+6. Check "Add a README file"
+7. Click "Create repository"
+
+PHASE 2: GET A PHISHING EMAIL SAMPLE (10 minutes)
+-------------------------------------------------
+
+Step 2.1: Use This Sample Email (Copy the text below)
+-----------------------------------------------------
+From: support@paypa1.com
+To: victim@example.com
+Subject: URGENT: Account Access Suspended
+
+Dear Customer,
+
+We've noticed unusual activity on your PayPal account.  
+To restore full access, please verify your account at the link below:
+
+https://paypal-secure.com/login
+
+Failure to verify within 24 hours will result in permanent suspension.
+
+Thank you,  
+PayPal Security Team
+
+Attachment: verify_account.exe
+-----------------------------------------------------
+
+Step 2.2: Save the Sample
+1. In your GitHub repo, click "Add file" → "Create new file"
+2. Name it: sample_phishing_email.txt
+3. Paste the phishing email content from above
+4. Click "Commit new file"
+
+PHASE 3: ANALYZE THE EMAIL (30 minutes)
+---------------------------------------
+
+Step 3.1: Check the Sender Email Address
+- Address: support@paypa1.com
+- Issue: 'paypa1.com' is spoofed (uses number 1 instead of letter l)
+- Conclusion: EMAIL SPOOFING
+
+Step 3.2: Analyze the Subject Line
+- Subject: URGENT: Account Access Suspended
+- Issue: Creates panic and urgency
+- Conclusion: SOCIAL ENGINEERING
+
+Step 3.3: Check the Email Body
+- Generic greeting: "Dear Customer"
+- Threatens suspension
+- Uses urgency ("within 24 hours")
+- Conclusion: SOCIAL ENGINEERING TACTICS
+
+Step 3.4: Examine Links (DO NOT CLICK)
+- Link: https://paypal-secure.com/login
+- Issue:
+  * Not an official domain
+  * Tries to appear like a trusted site
+- Conclusion: MALICIOUS LINK
+
+Step 3.5: Look at Attachments
+- File: verify_account.exe
+- Issue: Executable files are dangerous
+- Conclusion: MALWARE ATTEMPT
+
+Step 3.6: Use Online Tools (Optional)
+- Header Analysis: https://mxtoolbox.com/EmailHeaders.aspx
+- URL Analysis: https://www.virustotal.com
+- PhishTank Database: https://www.phishtank.com
+
+PHASE 4: WRITE YOUR ANALYSIS REPORT (20 minutes)
+------------------------------------------------
+Create file: phishing_report.txt
+- Summarize your findings
+- List all suspicious elements and why they're dangerous
+
+PHASE 5: CREATE README (10 minutes)
+-----------------------------------
+Create file: README.txt
+Include:
+- Project overview
+- Files used
+- Key findings
+- Tools used
+
+PHASE 6: FINALIZE YOUR REPOSITORY (5 minutes)
+---------------------------------------------
+- Upload files: sample_phishing_email.txt, phishing_report.txt, README.txt
+- Review everything once
+
+PHASE 7: SUBMIT YOUR WORK (5 minutes)
+-------------------------------------
+1. Copy your GitHub repository URL
+2. Submit using the link in the assignment
+3. Deadline: Before 10:00 PM
+
+IMPORTANT SAFETY WARNINGS
+=========================
+
+DO NOT:
+- Click on any links in phishing emails
+- Download any attachments from phishing emails
+- Visit suspicious websites
+- Use real personal information
+
+DO:
+- Only analyze text content
+- Use tools to inspect URLs (don’t visit them)
+- Work with fake/sample emails
+
+QUICK CHECKLIST
+===============
+Before submitting:
+- Created GitHub repository
+- Added phishing email sample
+- Written analysis report
+- Created README file
+- Submitted GitHub link
+
+USEFUL LINKS
+============
+- GitHub: https://github.com
+- Header Analyzer: https://mxtoolbox.com/EmailHeaders.aspx
+- VirusTotal: https://www.virustotal.com
+- PhishTank: https://www.phishtank.com
+- Google Header Analyzer: https://toolbox.googleapps.com/apps/messageheader/
+
+ESTIMATED TOTAL TIME: 1 hour 30 minutes
