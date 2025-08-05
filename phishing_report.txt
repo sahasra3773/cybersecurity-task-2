@@ -1,0 +1,31 @@
+Phishing Report - Task 2
+
+Phishing Indicators Identified:
+
+1. Spoofed Email Address:
+   - From: support@paypa1.com
+   - 'paypa1.com' is a fake domain mimicking 'paypal.com' using the number '1' instead of 'l'.
+
+2. Threatening Language:
+   - Subject: "URGENT: Account Access Suspended"
+   - Phrases like "Failure to verify within 24 hours..." create urgency and fear.
+
+3. Suspicious Link:
+   - https://paypal-secure.com/login
+   - This is NOT an official PayPal domain.
+
+4. Malicious Attachment:
+   - Attached file: verify_account.exe
+   - Executable attachments are a red flag for malware/phishing.
+
+5. Generic Greeting:
+   - "Dear Customer" instead of user's real name.
+
+6. Grammar and Tone:
+   - Robotic tone and minor inconsistencies indicate non-professional communication.
+
+7. Social Engineering:
+   - The email uses fear (account suspension) and urgency to manipulate the reader's response.
+
+Conclusion:
+This email displays multiple phishing traits and should be flagged as a phishing attempt.
